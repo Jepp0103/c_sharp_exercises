@@ -1,0 +1,11 @@
+C:\Users\Jeppe N. Dyekjær\Documents\c_sharp_exercises\bin\Debug\netcoreapp2.2\c_sharp_exercises.deps.json
+C:\Users\Jeppe N. Dyekjær\Documents\c_sharp_exercises\bin\Debug\netcoreapp2.2\c_sharp_exercises.runtimeconfig.json
+C:\Users\Jeppe N. Dyekjær\Documents\c_sharp_exercises\bin\Debug\netcoreapp2.2\c_sharp_exercises.runtimeconfig.dev.json
+C:\Users\Jeppe N. Dyekjær\Documents\c_sharp_exercises\bin\Debug\netcoreapp2.2\c_sharp_exercises.dll
+C:\Users\Jeppe N. Dyekjær\Documents\c_sharp_exercises\bin\Debug\netcoreapp2.2\c_sharp_exercises.pdb
+C:\Users\Jeppe N. Dyekjær\Documents\c_sharp_exercises\obj\Debug\netcoreapp2.2\c_sharp_exercises.csprojAssemblyReference.cache
+C:\Users\Jeppe N. Dyekjær\Documents\c_sharp_exercises\obj\Debug\netcoreapp2.2\c_sharp_exercises.csproj.CoreCompileInputs.cache
+C:\Users\Jeppe N. Dyekjær\Documents\c_sharp_exercises\obj\Debug\netcoreapp2.2\c_sharp_exercises.AssemblyInfoInputs.cache
+C:\Users\Jeppe N. Dyekjær\Documents\c_sharp_exercises\obj\Debug\netcoreapp2.2\c_sharp_exercises.AssemblyInfo.cs
+C:\Users\Jeppe N. Dyekjær\Documents\c_sharp_exercises\obj\Debug\netcoreapp2.2\c_sharp_exercises.dll
+C:\Users\Jeppe N. Dyekjær\Documents\c_sharp_exercises\obj\Debug\netcoreapp2.2\c_sharp_exercises.pdb
