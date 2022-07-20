@@ -1,4 +1,5 @@
 using System;
+using System.Linq;
 
 class Loops {
 
@@ -51,4 +52,33 @@ class Loops {
 
         return numbers;
     }
+
+    public int TheBiggestNumber(int[] numbers) {
+        return numbers.Max();
+    }
+
+    public int Two7sNextToEachOther(int[] numbers) {
+        int amountOf7s = 0;
+        int currentNumber;
+        int nextNumber;
+
+        for(int i = 0; i < numbers.Length; i++) {
+            if (i != 0) {
+                if(numbers[i - 1] == numbers[i]) {
+                    amountOf7s++;
+                }
+            }
+        }
+        
+        return amountOf7s;
+    }
+
+    public bool ThreeIncreasingAdjacent(int[] numbers) {
+        for(int i = 0; i < numbers.Length; i++) {
+            // if(i == )
+        }
+
+        return true;
+    }
+    
 }

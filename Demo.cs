@@ -58,9 +58,14 @@ namespace c_sharp_exercises
             Console.WriteLine("Fraction sum: " + l.FractionsSum(5));
             
             int[] sortedArr = l.SortArrayAscending(new int[] { 0, -23, 9, 18, -51, 1, 90, 57, -1, 25 });
-            foreach (var s in sortedArr) {
-                Console.Write($"{s} "); // -51 -23 -1 0 1 9 18 25 57 90
-            }
+            // foreach (var s in sortedArr) {
+            //     Console.Write($"{s} "); // -51 -23 -1 0 1 9 18 25 57 90
+            // }
+
+            Console.WriteLine("Max number in array: " + l.TheBiggestNumber(new int[] {190, 291, 145, 209, 280, 300}));
+            Console.WriteLine("Numbers of 7s next to each other: " + l.Two7sNextToEachOther(new int[] {8, 2, 5, 7, 9, 0, 7, 7, 3, 1}));
+            Console.WriteLine("Numbers of 7s next to each other: " + l.Two7sNextToEachOther(new int[] {9, 4, 5, 3, 7, 7, 7, 3, 2, 5, 7, 7}));
+
         }
     }
 }
