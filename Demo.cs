@@ -65,7 +65,37 @@ namespace c_sharp_exercises
             Console.WriteLine("Max number in array: " + l.TheBiggestNumber(new int[] {190, 291, 145, 209, 280, 300}));
             Console.WriteLine("Numbers of 7s next to each other: " + l.Two7sNextToEachOther(new int[] {8, 2, 5, 7, 9, 0, 7, 7, 3, 1}));
             Console.WriteLine("Numbers of 7s next to each other: " + l.Two7sNextToEachOther(new int[] {9, 4, 5, 3, 7, 7, 7, 3, 2, 5, 7, 7}));
+            Console.WriteLine("Three increasing adjacent: " + l.ThreeIncreasingAdjacent(new int[] {45, 23, 44, 68, 65, 70, 80, 81, 82}));
+            Console.WriteLine("Three increasing adjacent: " + l.ThreeIncreasingAdjacent(new int[] {7, 3, 5, 8, 9, 3, 1, 4 }));
+            Console.WriteLine("Three increasing adjacent: " + l.ThreeIncreasingAdjacent(new int[] {45, 23, 44, 45, 46, 70, 80, 81, 82}));
+            Console.WriteLine("Three increasing adjacent: " + l.ThreeIncreasingAdjacent(new int[] {1, 2, 3, 8, 9, 3, 1, 4 }));
+            Console.WriteLine("Even numbers: " + l.ReturnEvenNumbers());
 
+            // var arrayOfPrimes = l.SieveOfEratosthenes(30);
+            // for (int i = 0; i < arrayOfPrimes.Length; i++)
+            // {
+            //     if (arrayOfPrimes[i] != false)
+            //     {
+            //         Console.Write($"{i} "); // 2 3 5 7 11 13 17 19 23 29 31 37 41 43 47 53 59 61 67 71 73 79 83 89 97 
+            //     }                           
+            // }         
+
+            Console.WriteLine("Parallelogram: ");
+            l.DrawParallelogram();
+
+            Console.WriteLine("Full sequence of letters: " + l.FullSequenceOfLetters("ak"));
+            Console.WriteLine("Full sequence of letters: " + l.FullSequenceOfLetters("eh"));
+            
+            Console.WriteLine("---------------------------------------------------------------------------------------");
+            Console.WriteLine("STRINGS DEMO:");
+            StringsExercises s = new StringsExercises();
+            Console.WriteLine("Add seperator: " + s.AddSeperator("ABCD", "^"));
+            Console.WriteLine("Add seperator: " + s.AddSeperator("chocolate", "-"));
+            Console.WriteLine("Length of string: " + s.LengthOfString("computer"));
+            Console.WriteLine("Length of string: " + s.LengthOfString("ice cream"));
+            Console.WriteLine("String reversed: " + s.StringInReverseOrder("qwerty"));
+            Console.WriteLine("Sum of digits in string: " + s.SumDigitsInString("ss11234"));
+            
         }
     }
 }
