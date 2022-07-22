@@ -58,7 +58,7 @@ class StringsExercises {
         return upperCaseWord;
     }
 
-    public string MixTwoStrings(string str1, string str2) {
+    public string MixTwoStrings(string str1, string str2) { //Mixing strings
         string mixedString = "";
         int wordLength = str1.Length > str2.Length ? wordLength = str1.Length : wordLength = str2.Length;
 
