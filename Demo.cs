@@ -95,6 +95,11 @@ namespace c_sharp_exercises
             Console.WriteLine("Length of string: " + s.LengthOfString("ice cream"));
             Console.WriteLine("String reversed: " + s.StringInReverseOrder("qwerty"));
             Console.WriteLine("Sum of digits in string: " + s.SumDigitsInString("ss11234"));
+            Console.WriteLine("Make upper case word: " + s.MakeUppercase("modem"));
+            Console.WriteLine("Make upper case word: " + s.MakeUppercase("BookWorm"));
+            Console.WriteLine("Make upper case word: " + s.MakeUppercase("Aliquam dolor nisl?"));
+            Console.WriteLine("Mixed two strings: " + s.MixTwoStrings("aaa", "BBB"));
+            Console.WriteLine("Mixed two strings: " + s.MixTwoStrings("good one", "111"));
             
         }
     }

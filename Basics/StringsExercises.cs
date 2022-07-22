@@ -40,6 +40,39 @@ class StringsExercises {
         }
 
         return sum;
-    }    
+    }
+
+    public string MakeUppercase(string word) {
+        string upperCaseWord = "";
+        int letterIndex = 0;
+        for(int i = 0; i < word.Length; i++) {    
+            if(word[i] >= 'a' && word[i] <= 'z' && letterIndex % 2 == 0) {
+                upperCaseWord += (char)(word[i] - 32);
+                letterIndex++;
+            } else {
+                upperCaseWord += word[i];
+                letterIndex++;
+            }
+        }
+
+        return upperCaseWord;
+    }
+
+    public string MixTwoStrings(string str1, string str2) {
+        string mixedString = "";
+        int wordLength = str1.Length > str2.Length ? wordLength = str1.Length : wordLength = str2.Length;
+
+        for(int i = 0; i < wordLength; i++) {
+            if(i < str1.Length) {
+                mixedString += str1[i];
+            }
+
+            if(i < str2.Length) {
+                mixedString += str2[i];
+            }
+        }
+
+        return mixedString;
+    }
 
 }
