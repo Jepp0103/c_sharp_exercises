@@ -100,7 +100,20 @@ namespace c_sharp_exercises
             Console.WriteLine("Make upper case word: " + s.MakeUppercase("Aliquam dolor nisl?"));
             Console.WriteLine("Mixed two strings: " + s.MixTwoStrings("aaa", "BBB"));
             Console.WriteLine("Mixed two strings: " + s.MixTwoStrings("good one", "111"));
+            Console.WriteLine("Number of words: " + s.NumberOfWords("This is sample sentence df"));
+            Console.WriteLine("Number of words: " + s.NumberOfWords("OK s"));
+            Console.WriteLine("Occurences word: " + s.HowManyOccurrences("dot it now", "do"));
+            Console.WriteLine("Occurences word: " + s.HowManyOccurrences("empty", "d"));
+            Console.WriteLine("Sort characters descending: " + s.SortCharactersDescending("onomatopoeia"));
+            Console.WriteLine("Sort characters descending: " + s.SortCharactersDescending("fohjwf42os"));
             
+
+            Console.WriteLine("---------------------------------------------------------------------------------------");
+            Console.WriteLine("RECURSION DEMO:");
+            Recursion r = new Recursion();
+            Console.WriteLine("Digits multiplication: " + r.DigitsMultiplication(456));
+            Console.WriteLine("Digits multiplication: " + r.DigitsMultiplication(123));
+
         }
     }
 }
