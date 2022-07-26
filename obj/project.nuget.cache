@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "z5hV00Gsy5S5weV6tN9+Y/4WmGJcBpLBrYBX8QWxLUZVT0PEJNE/qquhlIIORzSjS8hk8kHZdOyiuO6NJ8dIdw==",
+  "dgSpecHash": "2zaoG3plF1T2JED3/hHWv7pm34kPp1DO/hrASberz6Dx9PGRwpHyXXzvQcmxY0o+8laVF/O/P3DIcyiA3PqRxA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\jeppe\\Documents\\c_sharp_exercises\\c_sharp_exercises.csproj",
+  "projectFilePath": "C:\\Users\\jeppe\\Documents\\programmering_git_projekter\\c_sharp_exercises\\c_sharp_exercises.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\jeppe\\.nuget\\packages\\microsoft.netcore.app\\2.2.0\\microsoft.netcore.app.2.2.0.nupkg.sha512",
     "C:\\Users\\jeppe\\.nuget\\packages\\microsoft.netcore.dotnetapphost\\2.2.0\\microsoft.netcore.dotnetapphost.2.2.0.nupkg.sha512",

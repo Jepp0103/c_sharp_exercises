@@ -138,7 +138,11 @@ namespace c_sharp_exercises
             Console.WriteLine("A start m end words: " + lin.AStartMEndWords(new string[]{"mum", "amsterdam", "bloom"}));
             Console.WriteLine("Top 5 numbers: " + lin.Top5Numbers(new int[]{78, -9, 0, 23, 54,  21, 7, 86}));
             Console.WriteLine("Square greater than 20: " + lin.SquareGreaterThan20(new int[]{7, 2, 30}));
-
+            Console.WriteLine("Replace substring: " + lin.ReplaceSubstring(new string[]{"learn", "current", "deal"}));
+            Console.WriteLine("Most frequent character: " + lin.MostFrequentCharacter("panda"));
+            Console.WriteLine("Most frequent character: " + lin.MostFrequentCharacter("n093nfv034nie9"));
+            Console.WriteLine("Unique values: " + lin.UniqueValues(new string[]{"abc", "xyz", "klm", "xyz", "abc", "abc", "rst"}));
+            Console.WriteLine("Uppercase only: " + lin.UppercaseOnly("DDD example CQRS Event Sourcing"));
         }
     }
 }

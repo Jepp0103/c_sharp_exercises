@@ -56,7 +56,7 @@ public class LinqExercises {
         return result;
     }
     
-    public string SquareGreaterThan20 (int[] numbers) {
+    public string SquareGreaterThan20(int[] numbers) {
         string result = "";
 
         IEnumerable<int> squaredNumbersGreaterThan20 = 
@@ -71,5 +71,49 @@ public class LinqExercises {
 
         return result;
     }
-    
+
+    public string ReplaceSubstring(string[] strings) {
+        string result = "";
+        var newStrings = strings.Select(str => str.Contains("ea") ? str.Replace("ea", "*") : str);
+
+        foreach(string str in newStrings) {
+            result += str == newStrings.Last() ? str : str + ", ";
+        }
+
+        return result;
+    }
+
+    public char MostFrequentCharacter(string str) {
+        var mostFrequentCharacter = str.GroupBy(s => s).OrderByDescending(s => s.Count()).First().Key;
+        return mostFrequentCharacter;
+    }
+
+    public string UniqueValues(string[] strings) {
+        IEnumerable<string> uniqueStrings = strings
+        .GroupBy(str => str)
+        .Where(str => str.Count() == 1)
+        .Select(str => str.Key);
+        
+        string result = "";
+        foreach(string str in uniqueStrings) {
+            result += str == uniqueStrings.Last() ? str : str + ", ";
+        }
+
+        return result;
+    }
+
+    public string UppercaseOnly(string str) {
+        string[] substrings = str.Split(" ");
+        IEnumerable<string> uppercaseStrings =
+        substrings
+        .Where(s => string.Equals(s, s.ToUpper()));
+        string result = "";
+
+        foreach(string s in uppercaseStrings) {
+            result += s == uppercaseStrings.Last() ? s : s + ", ";
+        }
+
+        return result;
+    }
+
 }
