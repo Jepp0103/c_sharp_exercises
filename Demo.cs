@@ -107,12 +107,37 @@ namespace c_sharp_exercises
             Console.WriteLine("Sort characters descending: " + s.SortCharactersDescending("onomatopoeia"));
             Console.WriteLine("Sort characters descending: " + s.SortCharactersDescending("fohjwf42os"));
             
-
             Console.WriteLine("---------------------------------------------------------------------------------------");
             Console.WriteLine("RECURSION DEMO:");
             Recursion r = new Recursion();
             Console.WriteLine("Digits multiplication: " + r.DigitsMultiplication(456));
             Console.WriteLine("Digits multiplication: " + r.DigitsMultiplication(123));
+            Console.WriteLine("Factorial: " + r.Factorial(4));
+            Console.WriteLine("Factorial: " + r.Factorial(7));
+            Console.WriteLine("Numbers multiplication: " + r.NumbersMultiplication(5, 7));
+            Console.WriteLine("Numbers multiplication: " + r.NumbersMultiplication(50, 50));
+            Console.WriteLine("Numbers multiplication: " + r.NumbersMultiplication(1, 10));
+            Console.WriteLine("Power of: "  + r.ToThePowerOfRecursion(2,3));
+            Console.WriteLine("Power of: "  + r.ToThePowerOfRecursion(5,2));
+
+            Console.WriteLine("---------------------------------------------------------------------------------------");
+            Console.WriteLine("LIBRARY FUNCTIONS DEMO:");
+            LibraryFunctions li = new LibraryFunctions();
+            Console.WriteLine("Negative or positive: " + li.NegativeOrPositive(-2));
+            Console.WriteLine("Negative or positive: " + li.NegativeOrPositive(6.25));
+            Console.WriteLine("Replace x with y: " + li.ReplaceXWithY("yellow"));
+            Console.WriteLine("Replace x with y: " + li.ReplaceXWithY("mushroom"));
+            Console.WriteLine("To lower or upper: " + li.ToLowerOrToUpper("this is it"));
+            Console.WriteLine("Is lower or upper: " + li.IfStartsWithLowerCase("Alfa Beta gamma"));
+
+            Console.WriteLine("---------------------------------------------------------------------------------------");
+            Console.WriteLine("LINQ FUNCTIONS DEMO:");
+            LinqExercises lin = new LinqExercises();
+            Console.WriteLine("Numbers from range: " + lin.NumbersFromRange(new int[]{67, 92, 153, 15}));
+            Console.WriteLine("Minimum length: " + lin.MinimumLength(new string[]{"computer", "usb", "apple"}));
+            Console.WriteLine("A start m end words: " + lin.AStartMEndWords(new string[]{"mum", "amsterdam", "bloom"}));
+            Console.WriteLine("Top 5 numbers: " + lin.Top5Numbers(new int[]{78, -9, 0, 23, 54,  21, 7, 86}));
+            Console.WriteLine("Square greater than 20: " + lin.SquareGreaterThan20(new int[]{7, 2, 30}));
 
         }
     }
