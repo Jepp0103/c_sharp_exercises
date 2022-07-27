@@ -143,6 +143,9 @@ namespace c_sharp_exercises
             Console.WriteLine("Most frequent character: " + lin.MostFrequentCharacter("n093nfv034nie9"));
             Console.WriteLine("Unique values: " + lin.UniqueValues(new string[]{"abc", "xyz", "klm", "xyz", "abc", "abc", "rst"}));
             Console.WriteLine("Uppercase only: " + lin.UppercaseOnly("DDD example CQRS Event Sourcing"));
+            Console.WriteLine("Dot product: " + lin.DotProduct(new int[]{1,2,3}, new int[]{4,5,6}));
+            Console.WriteLine("Dot product: " + lin.DotProduct(new int[]{7, -9, 3, -5}, new int[]{9, 1, 0, -4}));
+            Console.WriteLine("Frequency of letters: " + lin.FrequenceOfLetters("gamma"));
         }
     }
 }

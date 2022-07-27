@@ -116,4 +116,24 @@ public class LinqExercises {
         return result;
     }
 
+    public int DotProduct(int[] arr1, int[] arr2) {
+        var dotProduct = arr1.Zip(arr2, (first, second) => first * second).Sum();
+        return dotProduct;
+    }
+
+    public string FrequenceOfLetters(string str) {
+        string result = "";
+
+        var letters = str.GroupBy(s => s);
+
+        foreach(var l in letters) {
+            result += $"Letter {l.Key} occurs {l.Count()} time(s), ";
+        }
+
+        return result;
+    }
+
+
+
+
 }
