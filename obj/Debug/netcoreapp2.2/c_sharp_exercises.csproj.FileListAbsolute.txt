@@ -35,3 +35,16 @@ C:\Users\jeppe\Documents\programmering_git_projekter\c_sharp_exercises\obj\Debug
 C:\Users\jeppe\Documents\programmering_git_projekter\c_sharp_exercises\obj\Debug\netcoreapp2.2\c_sharp_exercises.dll
 C:\Users\jeppe\Documents\programmering_git_projekter\c_sharp_exercises\obj\Debug\netcoreapp2.2\c_sharp_exercises.pdb
 C:\Users\jeppe\Documents\programmering_git_projekter\c_sharp_exercises\obj\Debug\netcoreapp2.2\c_sharp_exercises.genruntimeconfig.cache
+C:\Users\jeppe\Documents\git_projekter\c_sharp_exercises\obj\Debug\netcoreapp2.2\c_sharp_exercises.csproj.AssemblyReference.cache
+C:\Users\jeppe\Documents\git_projekter\c_sharp_exercises\obj\Debug\netcoreapp2.2\c_sharp_exercises.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\jeppe\Documents\git_projekter\c_sharp_exercises\obj\Debug\netcoreapp2.2\c_sharp_exercises.AssemblyInfoInputs.cache
+C:\Users\jeppe\Documents\git_projekter\c_sharp_exercises\obj\Debug\netcoreapp2.2\c_sharp_exercises.AssemblyInfo.cs
+C:\Users\jeppe\Documents\git_projekter\c_sharp_exercises\obj\Debug\netcoreapp2.2\c_sharp_exercises.csproj.CoreCompileInputs.cache
+C:\Users\jeppe\Documents\git_projekter\c_sharp_exercises\obj\Debug\netcoreapp2.2\c_sharp_exercises.dll
+C:\Users\jeppe\Documents\git_projekter\c_sharp_exercises\obj\Debug\netcoreapp2.2\c_sharp_exercises.pdb
+C:\Users\jeppe\Documents\git_projekter\c_sharp_exercises\bin\Debug\netcoreapp2.2\c_sharp_exercises.deps.json
+C:\Users\jeppe\Documents\git_projekter\c_sharp_exercises\bin\Debug\netcoreapp2.2\c_sharp_exercises.runtimeconfig.json
+C:\Users\jeppe\Documents\git_projekter\c_sharp_exercises\bin\Debug\netcoreapp2.2\c_sharp_exercises.runtimeconfig.dev.json
+C:\Users\jeppe\Documents\git_projekter\c_sharp_exercises\bin\Debug\netcoreapp2.2\c_sharp_exercises.dll
+C:\Users\jeppe\Documents\git_projekter\c_sharp_exercises\bin\Debug\netcoreapp2.2\c_sharp_exercises.pdb
+C:\Users\jeppe\Documents\git_projekter\c_sharp_exercises\obj\Debug\netcoreapp2.2\c_sharp_exercises.genruntimeconfig.cache

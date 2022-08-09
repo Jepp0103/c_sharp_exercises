@@ -146,6 +146,21 @@ namespace c_sharp_exercises
             Console.WriteLine("Dot product: " + lin.DotProduct(new int[]{1,2,3}, new int[]{4,5,6}));
             Console.WriteLine("Dot product: " + lin.DotProduct(new int[]{7, -9, 3, -5}, new int[]{9, 1, 0, -4}));
             Console.WriteLine("Frequency of letters: " + lin.FrequenceOfLetters("gamma"));
+
+            Console.WriteLine("$1.75" + "$2.5");
+
+            Smoothie s1 = new Smoothie(new string[] { "Banana" });
+            Console.WriteLine(s1.Ingredients);
+            Console.WriteLine("cost: " + s1.GetCost());
+            Console.WriteLine("price: " + s1.GetPrice());
+            Console.WriteLine("name: " + s1.GetName());
+
+            Smoothie s2 = new Smoothie(new string[] { "Raspberries", "Strawberries", "Blueberries" });
+            Console.WriteLine(s2.Ingredients);
+            Console.WriteLine("cost: " + s2.GetCost());
+            Console.WriteLine("price: " + s2.GetPrice());
+            Console.WriteLine("name: " + s2.GetName());
+            
         }
     }
 }

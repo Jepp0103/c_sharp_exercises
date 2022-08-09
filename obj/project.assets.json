@@ -691,11 +691,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\jeppe\\Documents\\programmering_git_projekter\\c_sharp_exercises\\c_sharp_exercises.csproj",
+      "projectUniqueName": "C:\\Users\\jeppe\\Documents\\git_projekter\\c_sharp_exercises\\c_sharp_exercises.csproj",
       "projectName": "c_sharp_exercises",
-      "projectPath": "C:\\Users\\jeppe\\Documents\\programmering_git_projekter\\c_sharp_exercises\\c_sharp_exercises.csproj",
+      "projectPath": "C:\\Users\\jeppe\\Documents\\git_projekter\\c_sharp_exercises\\c_sharp_exercises.csproj",
       "packagesPath": "C:\\Users\\jeppe\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\jeppe\\Documents\\programmering_git_projekter\\c_sharp_exercises\\obj\\",
+      "outputPath": "C:\\Users\\jeppe\\Documents\\git_projekter\\c_sharp_exercises\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\jeppe\\AppData\\Roaming\\NuGet\\NuGet.Config",
